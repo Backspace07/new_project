@@ -61,6 +61,7 @@ a{
 }
 .main-section__image{
     text-align: right;
+    display: block;
 }
 .main-section__welcome{
     font-size: 16px;
@@ -94,3 +95,19 @@ a{
     cursor: pointer;
     border-radius: 5px;
 }   
+.to-uppcasep{
+    font-size: 40px;
+    
+}
+
+.main-section__info{
+    margin-left: -100px;
+    margin-right: 100px
+}
+.section_two{
+    display: block;
+
+}
+#main-section{
+    display: flex;
+}

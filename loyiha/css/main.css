@@ -84,6 +84,16 @@ a{
    margin-bottom: 20px;
 
 }
+.main-section__social-networks a{
+    color:black;
+    font-size: 20px;
+    display: inline-block;
+    margin-right: 16px;
+    cursor: pointer;
+}
+.main-section__social-networks a:hover i{
+    color: blue;
+}
 .main-section__action{
     margin-top: 30px;
     border: none;
@@ -110,4 +120,23 @@ a{
 }
 #main-section{
     display: flex;
+}
+/* statistics */
+.statistics{
+    padding-top: 100px;
+}
+.statistics__item{
+    display: inline-block;
+    width: 150px;
+    background-color: white;
+    text-align: center;
+    padding: 5px 10px;
+}
+.statistics__number{
+    font-size: 27px;
+    margin-bottom: 5px;
+    color: blue;
+}
+#asi{
+    margin-bottom: 20px;
 }
